@@ -27,5 +27,8 @@ class StartButton {
 
   void onTapHandler() {
     game.activeView = View.playing;
+    game.carSpawner.start();
+    game.score = 0;
+    game.playPlayingBgm();
   }
 }

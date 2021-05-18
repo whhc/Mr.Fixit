@@ -5,7 +5,7 @@ import 'package:game02/game.dart';
 
 class NormalCar extends Car {
   NormalCar(CustomGame game, double x, double y) : super(game) {
-    carRect = Rect.fromLTWH(x, y, game.tileSize * 1.5, game.tileSize * 1.5);
+    carRect = Rect.fromLTWH(x, y, game.tileSize * 1, game.tileSize * 1);
     runingSprite = [];
     runingSprite.add(Sprite('flies/house-fly-1.png'));
     runingSprite.add(Sprite('flies/house-fly-2.png'));

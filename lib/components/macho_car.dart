@@ -6,7 +6,7 @@ import 'car.dart';
 class MachoCar extends Car {
   double get speed => game.tileSize * 2;
   MachoCar(CustomGame game, double x, double y) : super(game) {
-    carRect = Rect.fromLTWH(x, y, game.tileSize * 2.025, game.tileSize * 2.025);
+    carRect = Rect.fromLTWH(x, y, game.tileSize * 1.35, game.tileSize * 1.35);
     runingSprite = [];
     runingSprite.add(Sprite('flies/macho-fly-1.png'));
     runingSprite.add(Sprite('flies/macho-fly-2.png'));

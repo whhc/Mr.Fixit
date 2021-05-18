@@ -5,7 +5,7 @@ import 'car.dart';
 
 class HungryCar extends Car {
   HungryCar(CustomGame game, double x, double y) : super(game) {
-    carRect = Rect.fromLTWH(x, y, game.tileSize * 1.65, game.tileSize * 1.65);
+    carRect = Rect.fromLTWH(x, y, game.tileSize * 1.1, game.tileSize * 1.1);
     runingSprite = [];
     runingSprite.add(Sprite('flies/hungry-fly-1.png'));
     runingSprite.add(Sprite('flies/hungry-fly-2.png'));

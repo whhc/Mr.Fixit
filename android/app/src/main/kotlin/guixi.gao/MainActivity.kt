@@ -1,4 +1,4 @@
-package com.example.game02
+package guixi.gao
 
 import io.flutter.embedding.android.FlutterActivity
 
